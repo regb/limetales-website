@@ -237,7 +237,7 @@ p4 {
 
 .presskit p {
   padding: 0;
-  margin: 0;
+  margin: 10px 0;
 }
 
 .presskit-nav {
@@ -313,10 +313,12 @@ p4 {
   margin-bottom: 5px;
 }
 
-.presskit-description, .presskit-history, .presskit-features {
-  float: right;
-  width: 65%;
-  margin-bottom: 30px;
+.presskit-description, .presskit-story, .presskit-features {
+  margin-bottom: 40px;
+  /* This ensures the text will not start wrapping around the factsheet.
+   * However, the next section will fill the entire space.
+   */
+  overflow: hidden;
 }
 
 .presskit-features ul {
@@ -326,7 +328,6 @@ p4 {
 
 .presskit-videos {
   overflow: auto;
-  margin-top: 40px;
   margin-bottom: 40px;
   clear: both;
   width: 100%;
@@ -445,6 +446,18 @@ p4 {
   	.screenshot 	{width: 90%;}
 }
 
+.store-badges {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
-
-
+.store-badge {
+  display: inline-block;
+  margin: 15px 30px;
+  width: 300px;
+  height: 100px;
+}
+.store-badge img {
+  width: 100%;
+}
