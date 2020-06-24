@@ -313,7 +313,7 @@ p4 {
   margin-bottom: 5px;
 }
 
-.presskit-description, .presskit-story, .presskit-features {
+.presskit-description, .presskit-history, .presskit-features {
   margin-bottom: 40px;
   /* This ensures the text will not start wrapping around the factsheet.
    * However, the next section will fill the entire space.
